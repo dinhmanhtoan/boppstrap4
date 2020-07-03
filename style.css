@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.hide{
+    display: none;
+}
+.active{
+    display: block;
+}
+.slider{
+    height: 100%;
+    width: 100%;
+
+}
+.banner{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.slider img{
+    width: 100%;
+    height: 100%;
+}
+.product{
+    position: relative;
+}
+.banner img{
+    width: 100%;
+    height: 100%;
+}
+.product img{
+    width: 100%;
+    height: 100%;
+}
+.row{
+    margin-bottom: 20px;
+}
+.new_product{
+    background-color: orangered;  
+    text-align: center;
+
+}
+.new_product span{
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+}
+.title{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 20px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+.title h1{
+    color: orange;
+}
+.left{
+    position: absolute;
+    top: 45%;
+    left: 15px;
+    border: none;
+    outline: none;
+    padding: 0px 15px;
+    padding-bottom: 2px;
+    color: white;
+    font-size: 30px;
+    background-color: tomato;
+}
+.right{
+    position: absolute;
+    top: 45%;
+    right: 15px;
+    border: none;
+    outline: none;
+    padding: 0px 15px;
+    padding-bottom: 2px;
+    color: white;
+    font-size: 30px;
+    background-color: tomato;
+
+}
+.left:hover{
+    cursor: pointer;
+    color:  tomato;
+    background-color: white;
+
+}
+.right:hover{
+    cursor: pointer;
+    color:  tomato;
+    background-color: white;
+
+}
